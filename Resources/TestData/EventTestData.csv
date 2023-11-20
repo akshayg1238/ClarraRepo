@@ -1,0 +1,6 @@
+S.No.,TestCaseName,MethodName,Execution,EventType,Milestone,EventCode,Date,Reminders,RecurringEvent,Location,Description,Notes,Matter,AssignedTo,Followers,Status,TimeHh,TimeMm,TimeAmorPm,DurationHh,DurationMm,Operation,Number,DayType
+1,CreateAnAppointmentEventAndValidateIfEventIsCreatedSucessfully,Event,Y,Appointment,No,ARB,today,14,Daily,New Delhi,Test,Testing,Test,Select All,Select All,Done,10,15,AM,1,50,N,N,N
+2,CreateAnDeadlineEventAndValidateIfEventIsCreatedSucessfully,Event,Y,Deadline,No,ARB,today,14,Daily,New Delhi,TestPurpose,Testing,Test,Select All,Select All,Done,10,15,AM,N,N,N,N,N
+3,CreateAnTaskEventAndValidateIfEventIsCreatedSucessfully,Event,Y,Task,No,APPT,today,14,Daily,New Delhi,Test,Testing,Test,Select All,Select All,Done,N,N,N,N,N,N,N,N
+4,CreateAnAllDayDeadlineEvent,Event,Y,Deadline,No,APPT,today,14,Daily,New Delhi,Test,Testing,Test,Select All,Select All,Done,N,N,N,N,N,N,N,N
+5,VerifyDateCalculatorAddRegulardays,Event,Y,Appointment,No,APPT,N,14,Daily,New Delhi,Test,Testing,Test,Select All,Select All,Done,10,15,AM,1,50,+ Add,3,Regular Days

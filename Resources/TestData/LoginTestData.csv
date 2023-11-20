@@ -1,0 +1,8 @@
+S.No.,TestCaseName,MethodName,Execution,Username,Password
+1,loginWithoutUsernameAndPassword,Login,Y,NA,NA
+2,loginWithBlankSpaceAsUsernameAndPassword,Login,Y,Space,Space
+3,loginWithInvalidFormatAsUsername,Login,Y,Test,Test
+4,loginWithNonExistingUser,Login,Y,unabletofind@test.com,Test
+5,loginWithValidUsernameAndInvalidPassword,Login,Y,test@test.com,Test
+6,loginWithValidUsernameAndPassword,Login,Y,asya.new.ten2@outlook.com,Asiakeh88@
+7,loginWithValidMicrosoftUsernameAndPassword,Login,Y,vanya.testing@outlook.com,Vanesa_May89
